@@ -22,7 +22,7 @@
 		"lint:noisy": "eslint src/",
 		"pot": "node scripts/extract-pot.js",
 		"prettier": "prettier --write \"src/**/*.{js,less}\"",
-		"start": "webpack-dev-server",
+		"start": "webpack-dev-server --host 0.0.0.0",
 		"test": "jest",
 		"test:watch": "jest --watch"
 	},
@@ -67,7 +67,7 @@
 		"cross-env": "^5.2.0",
 		"css-loader": "^0.28.7",
 		"ejs": "^2.5.2",
-		"ejs-loader": "^0.3.1",
+		"ejs-loader": "^0.3.5",
 		"ejs-webpack-loader": "^2.2.2",
 		"electron": "^3.0.7",
 		"electron-builder": "^20.31.2",
